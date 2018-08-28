@@ -1,1 +1,1 @@
-COMP361 Assignment 4 part 3
+# Closed Knight's Tour of a 6x6 board

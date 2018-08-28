@@ -5,6 +5,11 @@ import java.util.Arrays;
 
 import ecs100.UI;
 
+/**
+ * Calculates and displays a closed knights tour of a 6x6 board
+ * @author James Sutton
+ *
+ */
 public class KnightsTourClosedOptimised {
 	
 	private static int n;
@@ -14,11 +19,13 @@ public class KnightsTourClosedOptimised {
 	
 	public static void main(String[] args){
 
-		n = Integer.parseInt(args[0]);
+//		n = Integer.parseInt(args[0]);
+//		
+//		if(n < 5){
+//			throw new Error("n must be at least 5");
+//		}
 		
-		if(n < 5){
-			throw new Error("n must be at least 5");
-		}
+		n = 6;
 		
 		UI.println("Knights Tour of a "+n+"x"+n+" Board");
 		
